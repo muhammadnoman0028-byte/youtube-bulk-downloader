@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- Downloaded/managed binaries (FFmpeg auto-downloaded at runtime) ----
+bin/
+
+# ---- Runtime outputs & archives ----
+download_archive.txt
+*.part
+*.ytdl
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
